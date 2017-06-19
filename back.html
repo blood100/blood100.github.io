@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/front.css"/>
+		<link rel="stylesheet" type="text/css" href="css/component.css"/>
+		<link rel="stylesheet" type="text/css" href="css/demo.css"/>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+	</head>
+	<body>
+		<div id="wrap">
+			<div class="header" id="header">
+				<img src="img/index_title.png"/>
+			</div>
+			<div class="nav" id="nav">
+				<nav>
+					<ul>
+						<li>
+							<a href="index.html">
+								<div></div>
+								<span class="line line_top"></span>
+								<span class="line line_right"></span>
+								<span class="line line_bottom"></span>
+								<span class="line line_left"></span> 
+								朕的主页</a>
+						</li>
+						<li>
+							<a href="front.html">
+								<div></div>
+								<span class="line line_top"></span>
+								<span class="line line_right"></span>
+								<span class="line line_bottom"></span>
+								<span class="line line_left"></span> 
+								随意拼接</a>
+						</li>
+						<li>
+							<a href="middle.html">
+								<div></div>
+								<span class="line line_top"></span>
+								<span class="line line_right"></span>
+								<span class="line line_bottom"></span>
+								<span class="line line_left"></span> 
+								元素世界</a>
+						</li>
+						<li>
+							<a href="back.html">
+								<div></div>
+								<span class="line line_top"></span>
+								<span class="line line_right"></span>
+								<span class="line line_bottom"></span>
+								<span class="line line_left"></span> 
+								创意无限</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="backwrap" id="">
+				<div class="banner" id="banner">
+					<img src="img/main.jpg"/>
+					<p>星空之下逐梦之人</p>
+				</div>
+				<div class="banner_dw">
+					<div class="ro1">
+						<img id="f1" src="img/xm6.jpg"/>
+						<img id="b1" src="img/xm12.jpg"/>
+					</div>
+					<div class="ro2">
+						<img id="f1" src="img/xm3.jpg"/>
+						<img id="b1" src="img/xm7.jpg"/>
+					</div>
+					<div class="ro3">
+						<img id="f1" src="img/xm8.jpg"/>
+						<img id="b1" src="img/xm10.jpg"/>
+					</div>
+					<div class="ro4">
+						<img id="f1" src="img/xm9.jpg"/>
+						<img id="b1" src="img/xm11.jpg"/>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<p>@邮院16软件郭晋臣</p>
+			</div>
+		</div>
+	<script type="text/javascript">
+			 window.onload = function turn () {
+			 		var elem  =	document.getElementById("banner");
+					var cls = elem.className;
+					if(/banner/.test(cls)){ 
+						cls = cls.replace(/banner/,'banner2');
+					}else{
+						cls = cls.replace(/banner2/,'banner');
+					}
+					return elem.className = cls;
+				}
+			
+	</script>
+	</body>
+</html>

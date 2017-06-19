@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>我的博客</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css"/>
+		<script src="img/data.js" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+	<body onselectstart="return false">
+		<div id="wrap">
+			<div class="header" id="header">
+				<img src="img/index_title.png"/>
+			</div>
+			<div class="nav" id="nav">
+				<nav>
+					<ul>
+						<li>
+							<a href="index.html">
+								<div></div>
+								<span class="line line_top"></span>
+								<span class="line line_right"></span>
+								<span class="line line_bottom"></span>
+								<span class="line line_left"></span> 
+								我的主页</a>
+						</li>
+						<li>
+							<a href="front.html">
+								<div></div>
+								<span class="line line_top"></span>
+								<span class="line line_right"></span>
+								<span class="line line_bottom"></span>
+								<span class="line line_left"></span> 
+								随意拼接</a>
+						</li>
+						<li>
+							<a href="middle.html">
+								<div></div>
+								<span class="line line_top"></span>
+								<span class="line line_right"></span>
+								<span class="line line_bottom"></span>
+								<span class="line line_left"></span> 
+								元素世界</a>
+						</li>
+						<li>
+							<a href="back.html">
+								<div></div>
+								<span class="line line_top"></span>
+								<span class="line line_right"></span>
+								<span class="line line_bottom"></span>
+								<span class="line line_left"></span> 
+								创意无限</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="mainwrap" id="mainwrap">
+				<div class="photo photo_center photo_front" onclick="turn(this)" id="photo_{{index}}">	
+					<div class="photo-wrap" >
+						<div class="side side-front">
+							<p class="image"><img src="img/{{img}}"/></p>
+							<p class="caption">{{caption}}</p>
+						</div>
+						<div class="side side-back">
+							<p class="desc">{{desc}}</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				<p>@邮院16软件郭晋臣</p>
+			</div>
+		</div>
+	</body>
+<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+</html>
