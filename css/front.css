@@ -854,7 +854,7 @@ figure figcaption p,h2,span,div{
 .banner_dw{
 	position: relative;
 	text-align: center;
-	width: 98%;
+	width: 73%;
 	height: 410px;
 	overflow: hidden;
 }
@@ -862,7 +862,7 @@ figure figcaption p,h2,span,div{
 	position: relative;
 	float: left;
 	width: 200px;
-	margin-right: 2px;
+	margin-right: 2%;
 	height: 400px;
 	margin-top: 20px;
 	-webkit-transform-style: preserve-3d;
